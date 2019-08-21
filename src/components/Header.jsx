@@ -56,7 +56,7 @@ class LoginControl extends React.Component {
 // function of login button
   function LoginButton(props) {
     return (
-      <button id='log-in' class='btn' onClick={props.onClick}>
+      <button id='log-in' className='btn' onClick={props.onClick}>
         Login
       </button>
     );
@@ -64,7 +64,7 @@ class LoginControl extends React.Component {
 // Function of logout button
   function LogoutButton(props) {
     return (
-      <button id='log-out' class='btn' onClick={props.onClick}>
+      <button id='log-out' className='btn' onClick={props.onClick}>
         Logout
       </button>
     );
@@ -73,9 +73,9 @@ class LoginControl extends React.Component {
 export class Header extends React.Component {
     render() {
         return (
-            <div class='Jumbotron'>
+            <div className='Jumbotron'>
                 <div>
-                    <img class='banner' src={h_image} alt=""/>
+                    <img className='banner' src={h_image} alt=""/>
                 </div>
                 <div id='login'>
                   {/* Runs the class function logincontrol */}
